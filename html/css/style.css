@@ -1,0 +1,377 @@
+body, header, main, footer, div, img, h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*background-color: #fdf8ee;*/
+	background-image: linear-gradient(rgba(253, 248, 238, 0.3) ,rgba(253, 248, 238, 0.3)), url('../images/background.png');
+}
+/* Style rules for header content */
+header {
+	background-color: #020c45;
+	position: sticky;
+	top: 0;
+}
+.mobile-banner {
+	display: block;
+}
+.tabdesk-banner {
+	display: none;
+}
+header img {
+	float: left;
+	max-width: 100%;
+	margin-bottom:0%;
+}
+header h1 {
+	text-align: center;
+	font-size: 4.5em;
+	color: #06038D;
+}
+header h2 {
+	text-align: center;
+	font-size: 2em;
+	color: #f1e1c9;
+	padding-bottom: 1%;
+}
+
+/* Add a background color to the top navigation */
+#nav {
+	clear: both;
+  background-color: #ffbd59;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#nav a {
+	display: block;
+	width: 100%;
+	color:#020c45;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* Change the color of links on hover */
+#nav a:hover {
+  background-color: #FFB81C;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+#nav a.active {
+  background-color: #ffbd59
+  color: white;
+}
+
+/* Style rules for main content */
+#welcome {
+	font-size:1.25em;
+	text-align: center;
+	background-color: #ffdba6;
+	border-radius: 20px;
+	margin: 0 4%;
+	padding: 0.5% 1%;
+	border: 5px dotted #cd001a;
+}
+#welcome h2 {
+	padding-top: 1%;
+}
+#welcome p {
+	color: #020c45;
+	line-height: 1.25em;
+}
+#why-SAT {
+	font-size: 1.15em;
+	text-align: center;
+	line-height:1.25em;
+	
+}
+#why-SAT h4 {
+	clear: both;
+	text-align: center;
+}
+.admissions, .outside {
+	background-color: #ffdba6;
+	color: #020c45;
+	border-radius: 20px;
+	margin: 1% 4%;
+	padding: 0.5% 1%;
+	border: 5px dotted #cd001a;
+}
+#history, #DSAT, #format, #scoring, #next {
+	scroll-margin-top: 260px; /* height of your fixed header */
+	background-color: #ffdba6;
+	color: #020c45;
+	border-radius: 20px;
+	margin: 1% 4%;
+	padding: 0.5% 1%;
+	border: 5px dotted #cd001a;
+	
+}
+.page-title {
+	text-decoration: underline dotted;
+	text-align: center;
+	color: #CD001A;
+	font-size: 2.25em;
+	padding: 1%;
+	background-color: #fdf8ee;
+	border-radius: 35px;
+	width: fit-content;
+	margin: auto auto;
+}
+.subtitle {
+	color: #020c45;
+	text-decoration: underline dotted;
+	text-align: center;
+	font-size: 1.25em;
+}
+section p {
+	color: #020c45;
+	text-indent: 1em;
+	margin: 2%;
+	line-height: 1.25em;
+	font-size: 1.15em;
+}
+.more {
+	color: #cd001a;
+	font-size: 1.5em;
+	background-color: #fdf8ee;
+	border-radius: 10px;
+	width: fit-content;
+	margin: 2% auto;
+}
+p a {
+	color: #cd001a;
+}
+
+.tab-desk-sidebar {
+	display: none;
+}
+	
+.sidebar {
+    height: auto;
+}
+.sidebar a {
+	float: left;
+	padding: 1%;
+	display: block;
+	width: 96%;
+	text-align: center;
+	text-decoration: none;
+	color: #fdf8ee;
+	background-color: #cd001a;
+}
+#Math-mobile, #Timing-mobile, #RW-mobile, #info, #structure, #SEC, #expression, #algebra, #advanced, #geo, #problem-solving {
+  scroll-margin-top: 260px; /* height of fixed header */
+}
+
+
+.table-title {
+	text-decoration: underline dotted;
+	text-align: center;
+	color: #020c45;
+	font-size: 1.75em;
+	padding: 0%;
+	width: 95%;
+	margin: auto auto;
+	background-color: #fdf8ee;
+	border-radius: 10px;
+}
+.table-subtitle {
+	color: #020c45;
+	text-decoration: underline dotted;
+	text-align: center;
+	font-size: 1.25em;
+}
+.QT {
+		color: #020c45;
+	text-decoration: underline dotted;
+	text-align: center;
+	font-size: 1.1em;
+}
+.tab-desk-tables {
+	display: none;
+}
+.mobile-tables {
+	display: block;
+}
+
+table {
+	width: 95%;
+	border-collapse: collapse;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: auto auto;
+	margin-bottom: 7%;
+}
+	 
+th, td {
+	padding: 1%;
+	text-align: left;
+	border: 3px  solid #ffa926;
+}
+	
+th {
+	background-color: #ffc773;
+}
+	
+td {
+	background-color: #ffdba6;
+	color: #cd001a;
+	text-align: center;
+	font-weight: bold;
+}
+td ul {
+		text-align: left;
+		padding-left: 10%;
+}
+li {
+	padding-left: 0;
+}
+#table {
+	table-layout: fixed;
+	width: 95%;
+}
+td.box {
+	width: 40%;
+}	
+
+	
+/* Style rules for footer content */
+footer {
+	clear: both;
+    background-color: #ffbd59;
+    color: #020c45;
+    padding: 5px 0;
+    text-align: center;
+}
+.footer-content {
+    background-color: #ffbd59;
+	height: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+}
+.footer-section h2 {
+	margin-top: 5px;
+    margin-bottom: 15px;
+}
+.footer-section a {
+    color: #CD001A;
+    text-decoration: none;
+}
+.footer-section p {
+	padding: 0 5%;
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 600px) {
+	.tabdesk-banner {
+		display: block;
+		
+	}
+	.mobile-banner {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+
+	
+	.tab-desk-tables {
+			display: block;
+	}
+	.mobile-tables{
+		display: none;
+	}
+	.table-title {
+		width: fit-content;
+;
+	}
+	.sidebar {
+		display: none;
+	}
+
+	#nav a {
+		display: inline-block;
+		width: 22%;
+		color:#020c45;
+		padding: 1%;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	.tab-desk-sidebar {
+	  display: block;
+	  margin: 0;
+	  padding: 1%;
+	  width: 200px;
+	  position: fixed;
+	  font-size: .9em;
+	}
+
+	.tab-desk-sidebar a {
+		text-align: center;
+		font-size: 1em;
+		font-weight: bold;
+		float: none;
+		display: block;
+		text-decoration: none;
+		padding: 5%;
+		margin:2%;
+		background-color: #CD001A;
+		border-radius: 30px;
+		color: #fdf8ee;
+	}
+
+	#Math, #Timing, #RW, #writing {
+	  scroll-margin-top: 230px; /* height of fixed header */
+	}
+	#history, #DSAT, #format, #scoring, #next {
+		scroll-margin-top: 230px;
+	}
+	
+	.content {
+	  margin-left: 200px;
+	  padding: 1px 16px;
+	  height: auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	
+	#nav a {
+		display: inline-block;
+		width: 22.5%;
+		color:#020c45;
+		padding: 1%;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	section p {
+		color: #020c45;
+	}
+	.admissions, .outside {
+		width: 43%;
+		height: 360px;
+		padding: 2%;
+		margin: 1%;
+		display: block;
+		float: left;
+	}
+	
+}
+	
